@@ -1,0 +1,15 @@
+{
+	"input": {
+		"path": "data/input",
+		"drug_file": "drugs.csv",
+		"clinical_trial_file": "clinical_trials.csv",
+		"pubmed_csv_file": "pubmed.csv",
+		"pubmed_json_file": "pubmed.json"
+	},
+	"result": {
+		"path": "data/result",
+		"liaison_graph_folder": "liaison_graph",
+		"top_journal_folder": "top_journal",
+		"pubmed_drugs_folder": "pubmed_drugs"
+	}
+}
