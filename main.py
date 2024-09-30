@@ -7,6 +7,7 @@ if __name__ == "__main__":
     spark_sess, spark_logger, config_dict = spark.start_spark()
     spark_sess.sparkContext.setLogLevel('info')
 
+    # parse the input arguments in order to call the right method
     if len(sys.argv) > 1:
         if sys.argv[1] == "liaison_graph":
             job_liaison_graph.start_job(spark)
